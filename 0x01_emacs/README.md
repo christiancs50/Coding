@@ -26,19 +26,19 @@ ___
 3. **What is a Buffer and How to Switch Between Buffers?**
 - A **buffer** is an area where Emacs loads and edits a file. Each open file (process has its own buffer.
 - **Switch between buffers:**
- - 'C-x b' - Type buffer name to switch
- - 'C-x C-b' - Show a list of open buffers
- - 'M->' or '<M-<' ('Alt + >' or 'Alt + >') - Move to the last of first buffer
+  - 'C-x b' - Type buffer name to switch
+  - 'C-x C-b' - Show a list of open buffers
+  - 'M->' or '<M-<' ('Alt + >' or 'Alt + >') - Move to the last of first buffer
 
 ___
 
-4. **How to Use the Mark and Pointf to set the Region?**
+4. **How to Use the Mark and Point to set the Region?**
 - **Point:** The current cursor position in the buffer.
 - **Mark:** A saved cursor position that allows you defikne a region ( aselected text area).
-- **Settikng a region:**
- - 'C-SPC' (Ctrl + Space) - set mark
- - MOve cursor to extend selection
- - The region is now selected ( highlighted in modern Emacs).
+- **Setting a region:**
+  - 'C-SPC' (Ctrl + Space) - set mark
+  - MOve cursor to extend selection
+  - The region is now selected ( highlighted in modern Emacs).
 
 ___
 
@@ -58,21 +58,21 @@ ___
 
 6. **How to search Forward and Backward?**
 - **Forward search:**
- - 'C-s' - Start ikncrement search forward
- - Type text to search
- - Press 'C-s' again to jump to the next occurrence
+  - 'C-s' - Start increment search forward
+  - Type text to search
+  - Press 'C-s' again to jump to the next occurrence
 
-- **Backwaard search**
- - 'C-r' - Start search in reverse
- - Press 'C-r' again to find the previous occurence
+- **Backward search**
+  - 'C-r' - Start search in reverse
+  - Press 'C-r' again to find the previous occurrence
 
 ___
 
 7. **How to invoke Commands by Name?**
 - Use 'M-x' (Alt + x) to enter a command by name.
 - Example
- - 'M-x replace-string' - Replace a word or phrase
- -  'M-x find-file' - Open a file
+  - 'M-x replace-string' - Replace a word or phrase
+  -  'M-x find-file' - Open a file
 
 ___
 
