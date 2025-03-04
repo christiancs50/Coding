@@ -15,20 +15,20 @@ ___
 
 3. **How to Open and Save Files in Emacs**
 - **Open a file:**
- Press 'C-x C-f' ('Ctrl + x' , then 'Ctrl + f') and enter the file name.
+ Press `C-x C-f` (`Ctrl + x` , then `Ctrl + f`) and enter the file name.
 - **Save a file:**
- Press 'C-x C-s' to save the file.
+ Press `C-x C-s` to save the file.
 - **Save As (Save to a new file):**
- Press 'C-x C-w', then type the new filename.
+ Press `C-x C-w`, then type the new filename.
 
 ___
 
 3. **What is a Buffer and How to Switch Between Buffers?**
 - A **buffer** is an area where Emacs loads and edits a file. Each open file (process has its own buffer.
 - **Switch between buffers:**
-  - 'C-x b' - Type buffer name to switch
-  - 'C-x C-b' - Show a list of open buffers
-  - 'M->' or '<M-<' ('Alt + >' or 'Alt + >') - Move to the last of first buffer
+  - `C-x b` - Type buffer name to switch
+  - `C-x C-b` - Show a list of open buffers
+  - `M->` or `<M-<` (`Alt + >` or `Alt + >`) - Move to the last of first buffer
 
 ___
 
@@ -36,7 +36,7 @@ ___
 - **Point:** The current cursor position in the buffer.
 - **Mark:** A saved cursor position that allows you defikne a region ( aselected text area).
 - **Setting a region:**
-  - 'C-SPC' (Ctrl + Space) - set mark
+  - `C-SPC` (Ctrl + Space) - set mark
   - MOve cursor to extend selection
   - The region is now selected ( highlighted in modern Emacs).
 
@@ -44,48 +44,48 @@ ___
 
 5. **How to Cut and Paste Lines and Regions?**
 - **Cut (Kill):**
-'C-k' - Cut (kill) the current line
-'C-w' - Cut (Kill) the selected region
+`C-k` - Cut (kill) the current line
+`C-w` - Cut (Kill) the selected region
 
 - **Copy (Yank from Kill Ring):**
-'M-w' - Copy the selected region
+`M-w` - Copy the selected region
 
 - **Paste(Yank);**
-'C-y' - Paste(yank the last cut/copied text
-'M-y' - Cycle through previous yanked text
+`C-y` - Paste(yank the last cut/copied text
+`M-y` - Cycle through previous yanked text
 
 ___
 
 6. **How to search Forward and Backward?**
 - **Forward search:**
-  - 'C-s' - Start increment search forward
+  - `C-s` - Start increment search forward
   - Type text to search
-  - Press 'C-s' again to jump to the next occurrence
+  - Press `C-s` again to jump to the next occurrence
 
 - **Backward search**
-  - 'C-r' - Start search in reverse
-  - Press 'C-r' again to find the previous occurrence
+  - `C-r` - Start search in reverse
+  - Press `C-r` again to find the previous occurrence
 
 ___
 
 7. **How to invoke Commands by Name?**
-- Use 'M-x' (Alt + x) to enter a command by name.
+- Use `M-x` (Alt + x) to enter a command by name.
 - Example
-  - 'M-x replace-string' - Replace a word or phrase
-  -  'M-x find-file' - Open a file
+  - `M-x` replace-string' - Replace a word or phrase
+  - `M-x` find-file' - Open a file
 
 ___
 
 8. **How to Undo**
-- 'C-/' or 'C-x u' - Undo the last change
-- 'M-x undo' - Invoke undo manually
+- `C-/` or `C-x u` - Undo the last change
+- `M-x undo` - Invoke undo manually
 
 ___
 
 9. **How to Cancel Half-Entered Commands**
-- 'C-g' - Cancels an incomplete command or operation.
+- `C-g` - Cancels an incomplete command or operation.
 
 ___
 
 10. **How to Quit Emacs**
-- 'C-x C-c' - Exit Emacs (it will prompts you to save unsaved work).
+- `C-x C-c` - Exit Emacs (it will prompts you to save unsaved work).
