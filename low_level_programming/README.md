@@ -24,7 +24,8 @@ C was invented by **Dennis Ritchie in 1972 at Bell Labs. It was developed as an 
 
 4 **What happens when you type `gcc main.c`?**
 when you run:
-```bash
+```
+bash
   gcc main.c
 ```
 
