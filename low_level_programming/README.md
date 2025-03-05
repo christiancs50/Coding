@@ -24,8 +24,9 @@ C was invented by **Dennis Ritchie in 1972 at Bell Labs. It was developed as an 
 
 4 **What happens when you type `gcc main.c`?**
 when you run:
-```bash 
-gcc main.c```
+```bash
+  gcc main.c
+```
 
 GCC (GNU Compiler Collection) follows these steps:
   1. **Preprocessing(`cpp`):** Handles `#include`, `#define`, and macro expressions.
@@ -35,7 +36,8 @@ GCC (GNU Compiler Collection) follows these steps:
 
 To produce an executable with a custom name:
 ```bash
-gcc main.c -o my_program```
+gcc main.c -o my_program
+```
 
 ---
 
@@ -49,11 +51,12 @@ The **entry point** is where executin starts in a C program.
 6. **What is `main`?**
   - The `main` function is the starting point of every C program.
   - It has a **return type of** `int` and typically look like:
-  ```c
+```c
   int main(void)
   {
       return (0);
-  }```
+  }
+```
   - The returrn value tells the OS whether the program executed successfully (`0`) or failed (non-zero).
 
 ---
@@ -61,14 +64,17 @@ The **entry point** is where executin starts in a C program.
 7. **How to print Text in C**
 you can use these functions:
   - `printf` (formatted output);
-  ```c
-  printf("Hello, world!\n");```
+```c
+  printf("Hello, world!\n");
+```
   - `puts` (simpler but automatically adds a newline):
   ```c
-  puts("Hello, World!");```
+  puts("Hello, World!");
+```
   -`putchar` (prints a single character);
   ```c
-  putchar('A');```
+  putchar('A');
+```
 
 ---
 
@@ -76,27 +82,32 @@ you can use these functions:
 The `sizeof` operator retursa the size (in bytes) of a data type:
   ```c
   printf("Size of int: %lu bytes\n", sizeof(int));
-  printf("Size of char: %lu bytes\n", sizeof(char));```
+  printf("Size of char: %lu bytes\n", sizeof(char));
+```
 
 ---
 
 9. **How to compile using `gcc`
 To compile a C file (`main.c`) and create an executable:
 ```bash
-gcc main.c -o my_program```
+gcc main.c -o my_program
+```
 To compile with debugging symbols:
 ```bash
-gcc -g main.c -o my_program```
+gcc -g main.c -o my_program
+```
 To compile with extra warning:
 ```bash
-gcc -Wall -Wextra -pedantic main.c -o my_program```
+gcc -Wall -Wextra -pedantic main.c -o my_program
+```
 
 ---
 
 10. **What is the default program name when compiling with `gcc`?**
 if you compile without specifying an output file:
 ```bash
-gcc main.c```
+gcc main.c
+```
 the default output file is called `a.out`.
 
 ---
@@ -109,14 +120,16 @@ The **official coding style** emphasizes:
   - Writing comments properly.
 To check code formatting the **Betty-Style**( a C style checker used in the environment like ALX):
 ```bash
-betty main.c```
+betty main.c
+```
 
 ---
 
 12. **How to find the right header for standard library functions**
 If you are unsure which header file to include, check **manual(`man`) pages:**
 ```bash
-man 3 printf```
+man 3 printf
+```
 It will tell you that `printf` is in `<stdio.h>`.
 Common headers:
   - `<stdio.h>` \u2192 `printf`, `scanf`, `puts`
@@ -135,6 +148,7 @@ Common headers:
   {
 	return (0);
   }
+```
   - A return value of `0` means success.
   - A non-zero return value (like `1`) usually indicates an error.
 
