@@ -145,6 +145,7 @@ Common headers:
 
   - The `main` function should return an `int`, which indicates the **exit status:**
   ```c
+c
   int main(void)
   {
 	return (0);
