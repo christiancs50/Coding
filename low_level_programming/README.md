@@ -24,8 +24,7 @@ C was invented by **Dennis Ritchie in 1972 at Bell Labs. It was developed as an 
 
 4 **What happens when you type `gcc main.c`?**
 when you run:
-```
-bash
+```bash
   gcc main.c
 ```
 
@@ -133,19 +132,17 @@ man 3 printf
 ```
 It will tell you that `printf` is in `<stdio.h>`.
 Common headers:
-  - `<stdio.h>` \u2192 `printf`, `scanf`, `puts`
-  - `<stdlib.h>` \u2192 `malloc`, `free`, `exit`
-  - `<string,h>` \u2192 `strcpy`, `strlen`, `strcmp`
-  - `<math.h>` \u2192 `pow`, `sqrt`
-  - `<ctype.h>` \u2192 `isdigi`t, `isalpha`
+  - `<stdio.h>` : `printf`, `scanf`, `puts`
+  - `<stdlib.h>` : `malloc`, `free`, `exit`
+  - `<string,h>` : `strcpy`, `strlen`, `strcmp`
+  - `<math.h>` : `pow`, `sqrt`
+  - `<ctype.h>` : `isdigi`t, `isalpha`
 
 ---
 
 13. **How does `main` influence the return value of a program?**
-
   - The `main` function should return an `int`, which indicates the **exit status:**
   ```c
-c
   int main(void)
   {
 	return (0);
