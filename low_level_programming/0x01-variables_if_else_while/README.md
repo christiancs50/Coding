@@ -75,7 +75,7 @@ int main()
 
 ## 4. True and False Values in C
   - **Any nonzero value** is considered **TRUE (1)**.
-  - **Zero (`0`) is considered **FALSE(0)**.
+  - **Zero (`0`)** is considered **FALSE(0)**.
 
 ---
 
@@ -96,6 +96,7 @@ C does **not** have a built-in `bool` type (before C99). Instead
 	printf("isFalse: %d\n", isFalse);
 	return (0);
   }
+```
 
 ---
 
@@ -178,6 +179,7 @@ int main(void)
   return (0);
 
 }
+```
 
 ---
 
@@ -190,7 +192,7 @@ while (x > 0)
 	printf("%d\n", x);
  	x--;
  }
-
+```
 
 ---
 
@@ -208,3 +210,4 @@ ASCII (American Standard Code for Information Interchange) assigns values to cha
 
 gcc -m32 myprogram.c -o myprogram32
 gcc -m64 myprogram.c -o myprogram64
+```
