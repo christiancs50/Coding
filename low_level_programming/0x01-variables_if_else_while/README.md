@@ -30,7 +30,7 @@ int main(void)
 
 ---
 
-## 2. Logigal (Boolean) Operators in C
+## 2. Logical (Boolean) Operators in C
 
 Logical operators are used to evaluate **true(1)** or **false(0)** conditions.
 
@@ -205,7 +205,6 @@ ASCII (American Standard Code for Information Interchange) assigns values to cha
 ## Purpose of `gcc` Flags `-m32` and `-m64`
   - `-m32` - Compile for **32-bit** architecture.
   - `-m64` - Compile fofr **64-bit** architecture.
-
 ```bash
 
 gcc -m32 myprogram.c -o myprogram32
